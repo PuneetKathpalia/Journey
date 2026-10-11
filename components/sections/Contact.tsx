@@ -285,6 +285,35 @@ export default function Contact() {
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
 
+    
+
+
+
+
+
+
+<HoverBorderGradient
+  as="a"
+  href="mailto:puneetkathpalia99@gmail.com"
+  duration={2}
+  clockwise={true}
+  containerClassName="
+    rounded-full
+    bg-neutral-200
+    dark:bg-white/10
+  "
+  className="
+    gap-2
+    px-5
+    py-3
+    text-sm
+    font-semibold
+    whitespace-nowrap
+  "
+>
+  <Mail className="h-4 w-4" />
+  Email Me
+</HoverBorderGradient>
 
 <HoverBorderGradient
   as="a"
