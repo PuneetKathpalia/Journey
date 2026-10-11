@@ -183,10 +183,10 @@ export default function AboutTerminal() {
           flex-wrap justify-center
         "
       >
-        <span className="flex items-center gap-1">
+        {/* <span className="flex items-center gap-1">
           <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
           Currently working at Advance Solution
-        </span>
+        </span> */}
 
         <span>
           ⚡ Building backend systems with ServiceNow
